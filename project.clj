@@ -4,6 +4,6 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :main jepsen.etcdemo
   :dependencies [[org.clojure/clojure "1.11.1"]
-                 [jepsen "0.2.1-SNAPSHOT"]
+                 [jepsen "0.3.7"]
                  [verschlimmbesserung "0.1.3"]]
   :repl-options {:init-ns jepsen.etcdemo})
